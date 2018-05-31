@@ -1,0 +1,59 @@
+/** Header **/
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  z-index: 10;
+  border-bottom: 1px solid black;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+.logo span{
+  color: MediumAquamarine;
+}
+.logo img{
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+header nav{
+  padding-right: 40px;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/** Content **/
+div{
+  border: 1px solid black;
+}
+.column{
+  position: relative;
+  display: flex;
+  top: 70px;
+  display: flex;
+}
+
+.column.large{
+  display: flex;
+  width: 630px;
+}
+
+.column.medium{
+  display: flex;
+  width: 300px;
+}
+
+.column.small{
+  display: flex;
+  width: 240px;
+}
